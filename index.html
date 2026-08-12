@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"
+      integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-plane" id="nav_logo"> </i>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#skillset">Skillset</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#experiences">Experiências</a>
+          </li>
+        </ul>
+
+        <!-- <button class="btn-default">Peça aqui</button> -->
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#skillset">Skillset</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#experiences">Experiências</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Peça aqui</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            Olá, eu sou
+            <span>Lucas Dias Ferraz</span>
+          </h1>
+
+          <p class="description">
+            Engenheiro. Dedicado à automação e otimização de processos de
+            design, modelagem matemática, simulações dinâmicas.
+          </p>
+
+          <ul class="graduation">
+            <li>
+              <h2 id="section-title">Bacharelado em Engenharia Mecânica</h2>
+              <h3 id="section-subtitle">
+                Universidade Federal do Vale do São Francisco
+                <h4>2019 - 2025</h4>
+              </h3>
+            </li>
+
+            <li>
+              <h2 id="section-title">Pós graduação em Desenvolvimento Web</h2>
+              <h3 id="section-subtitle">
+                SENAC SP
+                <h4>2025 - 2026</h4>
+              </h3>
+            </li>
+          </ul>
+
+          <!-- <div id="cta_buttons">
+            <a href="" class="btn-default"> Ver Cardápio </a>
+
+            <a href="tel:+55555555" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (87) 98814-9773
+            </a>-->
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div id="banner">
+          <img src="src/images/" alt="" />
+        </div>
+         -->
+      </section>
+
+      <section id="skillset">
+        <h2 id="section-title">Skillset</h2>
+        <!-- <h3 id="section-subtitle">Nossos Pratos Especiais</h3> -->
+
+        <div id="skills">
+          <div class="skill">
+            <img src="src/images/Python (1).png" class="skill-image" alt="" />
+
+            <h3 class="skill-title">Python</h3>
+          </div>
+
+          <div class="skill">
+            <img src="src/images/MATLAB.png" class="skill-image" alt="" />
+
+            <h3 class="skill-title">MATLAB/Simulink</h3>
+          </div>
+
+          <div class="skill">
+            <img src="src/images/TypeScript.png" class="skill-image" alt="" />
+
+            <h3 class="skill-title">Typescript</h3>
+          </div>
+
+          <div class="skill">
+            <img src="src/images/CSS3.png" class="skill-image" alt="" />
+
+            <h3 class="skill-title">CSS</h3>
+        </div>
+      </section>
+
+      <section id="experiences">
+        <!-- <img src="src/images/chef.png" id="experiences_chef" /> -->
+        <div id="experiences_content">
+          <h2 class="section-title">Experiências</h2>
+
+
+          <div id="experience">
+            <div class="project">
+              <img src="src/images/fcarr.jpg" class="project-avatar" alt="" />
+
+              <div class="project-content">
+              <h2 id="section-title">F-Carranca Aerodesign</h2>
+              <h3 id="section-subtitle">
+                2019 - 2021
+              </h3>
+              <ul>
+                <li>
+                  Simulação da resposta dinâmica de aeronaves.
+                </li>
+                <li>
+                  Modelagem matemática e simulação de decolagem da aeronave com clearance de obstáculo.
+                </li>
+                <li>
+                  Integraçção do algorítmo com ModeFrontier para otimização de designs.
+                </li>
+              </ul>
+              </div>
+            </div>
+
+           <div class="project">
+              <img src="src/images/facepe.jpeg" class="project-avatar" alt="" />
+
+              <div class="project-content">
+              <h2 id="section-title">Facepe — Projeto de Extensão Tecnológica: Ciência de Dados Aplicada à Vitivinicultura de precisão e digital.</h2>
+              <h3 id="section-subtitle">
+                2023
+              </h3>
+              <ul>
+                <li>
+                  Prova de conceito de sistema para detecção de uvas com defeitos na linha de produção utilizando visão computacional.
+                </li>
+              </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="src/images/embraer.png" class="project-avatar" alt="" />
+
+              <div class="project-content">
+              <h2 id="section-title">Embraer — Setor de Desenvolvimento Tecnológico.</h2>
+              <h3 id="section-subtitle">
+                2024 - 2025
+              </h3>
+              <ul>
+                <li>
+                  Mockup do sistema de rádio, com simulação de transmissão de emergência e implementação de sistema de transmissão ATIS.
+                </li>
+                <li>
+                  Implementação de sistema de comandos de voz para navegação e interação com MCDU.
+                </li>
+              </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- <button class="btn-default">Ver mais avaliações</button> -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="src/images/wave2.svg" alt="" />
+
+      <div id="footer_items">
+        <span id="copyright"> &copy 2026 Lucas Ferraz </span>
+
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+  </body>
+</html>
