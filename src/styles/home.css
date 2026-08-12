@@ -2,10 +2,11 @@
     display: flex;
     min-height: calc(100vh - 91px);
     position: relative;
+    overflow: hidden;
 }
 
 #cta {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -43,22 +44,21 @@
 #banner {
     display: flex;
     align-items: end;
-    justify-content: start;
+    justify-content: end;
     width: 55%;
-    z-index: 3;
-    
+    z-index: 3;   
 }
 
 #banner img {
     height: 60%;
-    padding-left: -100px;
+    width: fit-content;
 }
 
 .shape,
 .shape2,
 .shape3 {
     background-color: var(--color-primary-2);
-    width: 40%;
+    width: 45%;
     height: 80%;
     position: absolute;
     border-radius: 40% 30% 0% 20%;
@@ -69,7 +69,7 @@
 
 .shape2 {
     background-color: var(--color-primary-3);
-    width: 30%;
+    width: 32%;
     height: 70%;
     z-index: 2;
 }
@@ -78,7 +78,7 @@
     background-color: var(--color-primary-5);
     width: 20%;
     height: 60%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .graduation {
