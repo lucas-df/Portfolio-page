@@ -70,12 +70,21 @@
 
     <main id="content">
       <section id="home">
-        <div class="shape"></div>
+        <div id="shapes">
+          <div class="shape"></div>
+          <div class="shape2"></div>
+          <div class="shape3"></div>
+        </div>
+
         <div id="cta">
-          <h1 class="title">
-            Olá, eu sou
-            <span>Lucas Dias Ferraz</span>
-          </h1>
+          <div id="introduction">
+            <h1 class="title">
+              Olá, eu sou
+              <span>Lucas Dias Ferraz</span>
+            </h1>
+
+            <img src="src/images/carrrc.png" class="avatar" alt="" />
+          </div>
 
           <p class="description">
             Engenheiro. Dedicado à automação e otimização de processos de
@@ -92,23 +101,15 @@
             </li>
 
             <li>
-              <h2 id="section-title">Pós graduação em Desenvolvimento Web</h2>
+              <h2 id="section-title">
+                Cursando Pós-graduação em Desenvolvimento Web
+              </h2>
               <h3 id="section-subtitle">
-                SENAC SP
-                <h4>2025 - 2026</h4>
+                SENAC SP EAD
+                <h4>2026 -</h4>
               </h3>
             </li>
           </ul>
-
-          <!-- <div id="cta_buttons">
-            <a href="" class="btn-default"> Ver Cardápio </a>
-
-            <a href="tel:+55555555" id="phone_button">
-              <button class="btn-default">
-                <i class="fa-solid fa-phone"></i>
-              </button>
-              (87) 98814-9773
-            </a>-->
 
           <div class="social-media-buttons">
             <a href="">
@@ -125,16 +126,14 @@
           </div>
         </div>
 
-        <!-- <div id="banner">
-          <img src="src/images/" alt="" />
+        <div id="banner">
+          <img src="src/images/plane.png" alt="" />
         </div>
-         -->
       </section>
 
       <section id="skillset">
         <h2 id="section-title">Skillset</h2>
-        <!-- <h3 id="section-subtitle">Nossos Pratos Especiais</h3> -->
-
+        
         <div id="skills">
           <div class="skill">
             <img src="src/images/Python (1).png" class="skill-image" alt="" />
@@ -158,76 +157,79 @@
             <img src="src/images/CSS3.png" class="skill-image" alt="" />
 
             <h3 class="skill-title">CSS</h3>
+          </div>
         </div>
       </section>
 
       <section id="experiences">
-        <!-- <img src="src/images/chef.png" id="experiences_chef" /> -->
+        
         <div id="experiences_content">
           <h2 class="section-title">Experiências</h2>
 
-
           <div id="experience">
-            <div class="project">
-              <img src="src/images/fcarr.jpg" class="project-avatar" alt="" />
-
-              <div class="project-content">
-              <h2 id="section-title">F-Carranca Aerodesign</h2>
-              <h3 id="section-subtitle">
-                2019 - 2021
-              </h3>
-              <ul>
-                <li>
-                  Simulação da resposta dinâmica de aeronaves.
-                </li>
-                <li>
-                  Modelagem matemática e simulação de decolagem da aeronave com clearance de obstáculo.
-                </li>
-                <li>
-                  Integraçção do algorítmo com ModeFrontier para otimização de designs.
-                </li>
-              </ul>
-              </div>
-            </div>
-
-           <div class="project">
-              <img src="src/images/facepe.jpeg" class="project-avatar" alt="" />
-
-              <div class="project-content">
-              <h2 id="section-title">Facepe — Projeto de Extensão Tecnológica: Ciência de Dados Aplicada à Vitivinicultura de precisão e digital.</h2>
-              <h3 id="section-subtitle">
-                2023
-              </h3>
-              <ul>
-                <li>
-                  Prova de conceito de sistema para detecção de uvas com defeitos na linha de produção utilizando visão computacional.
-                </li>
-              </ul>
-              </div>
-            </div>
-
             <div class="project">
               <img src="src/images/embraer.png" class="project-avatar" alt="" />
 
               <div class="project-content">
-              <h2 id="section-title">Embraer — Setor de Desenvolvimento Tecnológico.</h2>
-              <h3 id="section-subtitle">
-                2024 - 2025
-              </h3>
-              <ul>
-                <li>
-                  Mockup do sistema de rádio, com simulação de transmissão de emergência e implementação de sistema de transmissão ATIS.
-                </li>
-                <li>
-                  Implementação de sistema de comandos de voz para navegação e interação com MCDU.
-                </li>
-              </ul>
+                <h2 id="section-title">
+                  Embraer — Setor de Desenvolvimento Tecnológico.
+                </h2>
+                <h3 id="section-subtitle">2024 - 2025</h3>
+                <ul>
+                  <li>
+                    Mockup do sistema de rádio, com simulação de transmissão de
+                    emergência e implementação de transmissão automatizada do
+                    sistema ATIS.
+                  </li>
+                  <li>
+                    Implementação de sistema de comandos de voz para navegação e
+                    interação com MCDU.
+                  </li>
+                </ul>
               </div>
             </div>
 
+            <div class="project">
+              <img src="src/images/facepe.jpeg" class="project-avatar" alt="" />
+
+              <div class="project-content">
+                <h2 id="section-title">
+                  Facepe — Projeto de Extensão Tecnológica: Ciência de Dados
+                  Aplicada à Vitivinicultura de precisão e digital.
+                </h2>
+                <h3 id="section-subtitle">2023</h3>
+                <ul>
+                  <li>
+                    Prova de conceito de sistema para detecção de uvas com
+                    defeitos na linha de produção utilizando visão
+                    computacional.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="src/images/fcarr.jpg" class="project-avatar" alt="" />
+
+              <div class="project-content">
+                <h2 id="section-title">F-Carranca Aerodesign</h2>
+                <h3 id="section-subtitle">2019 - 2023</h3>
+                <ul>
+                  <li>Simulação da resposta dinâmica de aeronaves.</li>
+                  <li>
+                    Modelagem matemática e simulação de decolagem da aeronave
+                    com clearance de obstáculo.
+                  </li>
+                  <li>
+                    Integraçção do algorítmo com ModeFrontier para otimização de
+                    designs.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <!-- <button class="btn-default">Ver mais avaliações</button> -->
+          
         </div>
       </section>
     </main>

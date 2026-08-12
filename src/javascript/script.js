@@ -40,6 +40,32 @@ $(document).ready(function () {
     distance: '20%'
   })
 
+  ScrollReveal().reveal('.shape', {
+    origin: 'right',
+    duration: 2000,
+    distance: '20%'
+  })
+  
+  ScrollReveal().reveal('.shape2', {
+    origin: 'right',
+    duration: 2000,
+    distance: '20%'
+  })
+  
+  ScrollReveal().reveal('.shape3', {
+    origin: 'right',
+    duration: 2000,
+    distance: '20%'
+  })
+
+  ScrollReveal().reveal('#banner', {
+    delay: 1000,
+    origin: 'right',
+    duration: 3000,
+    distance: '50%',
+    easing: 'ease-out'
+  })
+
   ScrollReveal().reveal('.skill', {
     origin: 'left',
     duration: 2000,
