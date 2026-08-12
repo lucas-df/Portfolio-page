@@ -7,15 +7,15 @@
 @import url('footer.css');
 
 :root {
-    --color-primary-1: #0a0c0f;
-    --color-primary-3: #4199d8;
-    --color-primary-2: #0067B1;
-    --color-primary-4: #f8d477;
-    --color-primary-5: #71b9ec;
-    --color-primary-6: #0067B1;
+    --color-primary-1: hsl(216, 20%, 5%);
+    --color-primary-3: hsl(205, 70%, 55%);
+    --color-primary-2: hsl(205, 75%, 45%);
+    --color-primary-5: hsl(205, 60%, 68%);
+    --color-primary-6: hsl(205, 100%, 35%);
     
     --color-neutral-0: hsl(240, 20%, 10%);
     --color-neutral-1: #FAFAFA;
+    --color-neutral-2: hsl(240, 20%, 20%);
 }
 
 * {
@@ -35,26 +35,8 @@ body {
     color: var(--color-neutral-1);
 }
 
-.btn-default {
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-primary-5);
-    border-radius: 12px;
-    padding: 10px 14px;
-    font-weight: 600;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0 , 0, 0.1);
-    cursor: pointer;
-    transition: background-color .3s ease;
-}
-
 section {
     padding: 28px 8%;
-}
-
-.btn-default:hover {
-    background-color: var(--color-primary-4);
 }
 
 .social-media-buttons{
@@ -73,19 +55,32 @@ section {
     border-radius: 10px;
     text-decoration: none;
     color: var(--color-neutral-1);
-    box-shadow: 0px 0px 12px 4px rgba(0, 0 , 0, 0.1);
-    transition: box-shadow .3s ease;
 }
 
 .social-media-buttons a:hover {
-    box-shadow: 0px 0px 12px 8x rgba(0, 0 , 0, 0.1);
+    background-color: var(--color-neutral-2);
+    box-shadow: 0px 0px 12px 8x rgba(255, 255, 255, 0.5);
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    color: var(--color-neutral-1);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 800;
+    transition: background-color .3s ease;
 }
 
 .section-title {
+    font-size: 2rem;
     color: var(--color-primary-6);
-    font-size: 1.563rem;
 }
 
 .section-subtitle {
-    font-size: 2.1875rem;
+    font-size: 1.5rem;
+    font-weight: 400;
 }

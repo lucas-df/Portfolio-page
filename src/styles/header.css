@@ -40,6 +40,7 @@ header {
 
 #mobile_btn {
     display: none;
+    color: var(--color-neutral-1);
 }
 
 #mobile_menu {
